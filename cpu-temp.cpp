@@ -15,7 +15,7 @@ const char *cpu_temp::sensors[] = {
   "/sys/devices/platform/s5p-tmu/temperature",
   "/sys/class/thermal/thermal_zone0/temp",
   "/sys/devices/virtual/thermal/thermal_zone0/temp",
-  "/sys/class/hwmon/hwmon0/device/temp1_input",
+  "/sys/class/hwmon/hwmon0/temp1_input",
   "/sys/devices/virtual/thermal/thermal_zone1/temp",
   "/sys/devices/platform/s5p-tmu/curr_temp"
 };
